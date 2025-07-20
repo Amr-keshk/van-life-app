@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-home {
+  background-image: url(./Assets/bg-home.png);
+  
+}
+.bg-about {
+  background-image: url(./Assets/bg-about.png);
+
+}
+.type-button {
+  @apply py-2 px-4 capitalize rounded-md font-medium
+}
+.simple {
+  @apply bg-orange-300
+}
+.rugged {
+  @apply bg-slate-900
+}
+.luxury {
+  @apply bg-green-900
+}
+.active {
+  @apply underline font-bold
+}
+.hover-header {
+  @apply hover:scale-110 hover:underline
+}
